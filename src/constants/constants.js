@@ -32,13 +32,49 @@ export const projects = [
   {
     title: "E-Commerce API",
     description:
-      "This is an API informational webpage for an e-commerce website. It was created using Node.js, Express.js and mongoDB. The frontend was generated using docgen with postman data. The backend was created with full user authentication, admin functionality. Users can create orders, view products, and review products. Admins can create products and upload pictures associated with that product. It has been deployed on Render.",
+      "This is an API informational webpage for an e-commerce website. It was created using Node.js, Express.js, and mongoDB. The frontend was generated using docgen with postman data. The backend was created with full user authentication, admin functionality. Users can create orders, view products, and review products. Admins can create products and upload pictures associated with that product. It has been deployed on Render.",
     image: "images/e-commerce-api.png",
     tags: ["MongoDB", "Node.js", "Express.js", "JavaScript"],
     source: "https://node-e-commerce-api-zrp8.onrender.com",
     visit: "https://github.com/Snyrby/E-Commerce-API",
-    id: 2,
+    id: 3,
   },
+  {
+    title: "Authentication Workflow",
+    description: "This goes over many aspects associated with authentication. It was created using Node.js, Express.js, and mongoDB. It contains user authentication, reset password email, forgotten password, email verification, etc.",
+    image: "images/auth_workflow.png",
+    tags: ["MongoDB", "Node.js", "Express.js", "JavaScript", "React"],
+    source: "",
+    visit: "https://github.com/Snyrby/node-authentication-workflow",
+    id: 4,
+  },
+  {
+    title: "Jobster",
+    description: "This project is a job tracking application that tracks user's job application and the status on them. It was created using Node.js, Express.js and mongoDB. It contains user authentication, proper error handling.",
+    image: "images/jobster.png",
+    tags: ["MongoDB", "Node.js", "Express.js", "JavaScript", "React"],
+    source: "",
+    visit: "https://github.com/Snyrby/node-jobster-api",
+    id: 5,
+  },
+  {
+    title: "Stripe Payment example",
+    description: "This is a simple example of a stripe payment app. It was created using Node.js and Express.js. The frontend was provided by stripe as their example.",
+    image: "images/stripe.png",
+    tags: ["Node.js", "Express.js", "JavaScript", "Stripe"],
+    source: "",
+    visit: "https://github.com/Snyrby/node-stripe-payment",
+    id: 6,
+  },
+  {
+    title: "Cloudinary Upload node project",
+    description: "This is a simple example of a file upload app to cloudinary. It was created using Node.js and Express.js, and mongoDB.",
+    image: "images/file_upload.png",
+    tags:["Node.js", "Express.js", "Cloudinary", "MongoDB"],
+    source: "",
+    visit: "https://github.com/Snyrby/node-file-upload",
+    id: 7,
+  }
 ];
 
 export const TimeLineData = [
