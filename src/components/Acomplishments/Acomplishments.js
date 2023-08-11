@@ -21,21 +21,21 @@ const Acomplishments = () => {
     <Section>
       <SectionTitle>Personal Accomplishments</SectionTitle>
       <Boxes>
-        <Box key={accomplishments.id}>
+        <Box key={accomplishments.totalProjects}>
           <BoxNum>
             {accomplishments.totalProjects}
             {accomplishments.totalProjects % 10 === 0 ? "+" : null}
           </BoxNum>
           <BoxText>Open Source Projects</BoxText>
         </Box>
-        <Box key={accomplishments.id + 1}>
+        <Box key={accomplishments.liveProjects}>
           <BoxNum>
             {accomplishments.liveProjects}
             {accomplishments.liveProjects % 10 === 0 ? "+" : null}
           </BoxNum>
           <BoxText>Live Projects</BoxText>
         </Box>
-        <Box key={accomplishments.id + 2}>
+        <Box key={2}>
           <BoxNum>2</BoxNum>
           <BoxText>College Degrees</BoxText>
         </Box>
